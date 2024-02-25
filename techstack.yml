@@ -1,0 +1,1110 @@
+repo_name: tkim/langchaingo
+report_id: 57f24a909d667c84ef1c3529a2811b9f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-25T14:52:59+00:00'
+requested_by: eliben
+provider: github
+branch: main
+detected_tools_count: 80
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/tkim/langchaingo
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/llmsummarization-chain-example/go.mod
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-28 21:33:04.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/llmsummarization-chain-example/go.mod
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Alvaro Viebrantz
+  last_updated_on: 2023-05-24 19:50:47.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-02-18 20:04:33.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.22.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/babel.config.js
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tkim/langchaingo
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/.github/workflows/ci.yaml
+  detection_source: ".github/workflows/ci.yaml"
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-28 21:48:23.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/llmsummarization-chain-example/go.mod
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-05-27 00:51:07.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-23 21:32:44.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.87.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/yarn.lock
+  detection_source: docs/yarn.lock
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: OpenAPI
+  description: Allows the owner of a network-accessible service to give universal
+    access
+  website_url: https://www.openapis.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/9792/L8C2-2bd_400x400.jpg
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-02-18 20:04:33.000000000 Z
+- name: Masterminds/goutils
+  description: GoUtils is a Go implementation of some string manipulation libraries
+    of Apache Commons
+  package_url: https://pkg.go.dev/github.com/Masterminds/goutils
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-14 10:53:39.000000000 Z
+- name: analysis
+  description: Openapi specification object model analyzer
+  package_url: https://pkg.go.dev/github.com/go-openapi/analysis
+  version: 0.21.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/document-qa-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-05-27 00:51:07.000000000 Z
+- name: bluemonday
+  description: 'Bluemonday: a fast golang HTML sanitizer'
+  package_url: https://pkg.go.dev/github.com/microcosm-cc/bluemonday
+  version: 1.0.24
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/document-qa-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-07-10 00:30:20.000000000 Z
+- name: cascadia
+  description: CSS selector library in Go
+  package_url: https://pkg.go.dev/github.com/andybalholm/cascadia
+  version: 1.3.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/document-qa-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-07-10 00:30:20.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-14 10:53:39.000000000 Z
+- name: colly
+  description: Elegant Scraper and Crawler Framework for Golang
+  package_url: https://pkg.go.dev/github.com/gocolly/colly
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Simun Strukan
+  last_updated_on: 2023-07-21 15:14:30.000000000 Z
+- name: copystructure
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/copystructure
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-14 10:53:39.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-16 07:36:20.000000000 Z
+- name: decimal
+  description: Arbitrary-precision fixed-point decimal numbers in go
+  package_url: https://pkg.go.dev/github.com/shopspring/decimal
+  version: 1.2.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-14 10:53:39.000000000 Z
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.9.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/cohere-llm-example/go.sum
+  detection_source: examples/cohere-llm-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-07-23 18:42:45.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/chroma-vectorstore-example/go.mod
+  last_updated_by: Marty Ross
+  last_updated_on: 2023-09-29 16:05:25.000000000 Z
+- name: glob
+  description: Go glob
+  package_url: https://pkg.go.dev/github.com/gobwas/glob
+  version: 0.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Simun Strukan
+  last_updated_on: 2023-07-21 15:14:30.000000000 Z
+- name: go
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/document-qa-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Alvaro Viebrantz
+  last_updated_on: 2023-05-24 19:50:47.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/anthropic-completion-example/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: go-openapi/errors
+  description: Openapi toolkit common errors
+  package_url: https://pkg.go.dev/github.com/go-openapi/errors
+  version: 0.19.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Lancelot Owczarczak
+  last_updated_on: 2023-07-20 13:34:03.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/anthropic-completion-example/go.sum
+  detection_source: go.mod
+  last_updated_by: lu.bai
+  last_updated_on: 2023-06-26 09:35:51.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  version: 1.14.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/sql-database-chain-example/go.sum
+  detection_source: examples/sql-database-chain-example/go.mod
+  last_updated_by: Murilo Santana
+  last_updated_on: 2023-06-27 22:33:07.000000000 Z
+- name: go/compute/metadata
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/compute/metadata
+  version: 0.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/llmsummarization-chain-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-28 21:33:04.000000000 Z
+- name: go/iam
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/iam
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/llmsummarization-chain-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-28 21:33:04.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/anthropic-completion-example/go.sum
+  detection_source: examples/anthropic-completion-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-28 21:33:04.000000000 Z
+- name: goquery
+  description: A little like that j-thing, only in Go
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/goquery
+  version: 1.8.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/document-qa-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-07-10 00:30:20.000000000 Z
+- name: govalidator
+  description: Package of validators and sanitizers for strings
+  package_url: https://pkg.go.dev/github.com/asaskevich/govalidator
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/llmsummarization-chain-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-05-27 00:51:07.000000000 Z
+- name: jsonpointer
+  description: Fork of gojsonpointer with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonpointer
+  version: 0.19.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Oloruntobi1
+  last_updated_on: 2023-07-06 01:44:05.000000000 Z
+- name: jsonreference
+  description: Fork of gojsonreference with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonreference
+  version: 0.19.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: loads
+  description: Openapi specification object model
+  package_url: https://pkg.go.dev/github.com/go-openapi/loads
+  version: 0.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 1.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  version: 0.3.11
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-14 10:53:39.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/document-qa-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Alvaro Viebrantz
+  last_updated_on: 2023-05-24 19:50:47.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/document-qa-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-28 21:33:04.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/llmsummarization-chain-example/go.mod
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-28 21:33:04.000000000 Z
+- name: purell
+  description: Tiny Go library to normalize URLs
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/purell
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: reflectwalk
+  description: Reflectwalk is a Go library for "walking" complex structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/reflectwalk
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-14 10:53:39.000000000 Z
+- name: regexp2
+  description: A full-featured regex engine in pure Go based on the .NET engine
+  package_url: https://pkg.go.dev/github.com/dlclark/regexp2
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/anthropic-completion-example/go.sum
+  detection_source: examples/anthropic-completion-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-07-29 23:24:02.000000000 Z
+- name: robotstxt
+  description: 'The robots.txt exclusion protocol implementation for Go language #golang'
+  package_url: https://pkg.go.dev/github.com/temoto/robotstxt
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Simun Strukan
+  last_updated_on: 2023-07-21 15:14:30.000000000 Z
+- name: saintfish/chardet
+  description: Charset detector library for golang derived from ICU
+  package_url: https://pkg.go.dev/github.com/saintfish/chardet
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marty Ross
+  last_updated_on: 2023-09-29 16:05:25.000000000 Z
+- name: sanitize
+  description: Package sanitize provides functions for sanitizing text in golang strings
+  package_url: https://pkg.go.dev/github.com/kennygrant/sanitize
+  version: 1.2.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Simun Strukan
+  last_updated_on: 2023-07-21 15:14:30.000000000 Z
+- name: spec
+  description: Openapi specification object model
+  package_url: https://pkg.go.dev/github.com/go-openapi/spec
+  version: 0.20.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: strfmt
+  description: Openapi toolkit common string formats
+  package_url: https://pkg.go.dev/github.com/go-openapi/strfmt
+  version: 0.21.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-06-24 07:25:22.000000000 Z
+- name: swag
+  description: Goodie bag in use in the go-openapi projects
+  package_url: https://pkg.go.dev/github.com/go-openapi/swag
+  version: 0.19.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.13.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-14 10:53:39.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/document-qa-example/go.sum
+  detection_source: examples/llmsummarization-chain-example/go.mod
+  last_updated_by: Travis Cline
+  last_updated_on: 2023-10-16 07:36:20.000000000 Z
+- name: ulid
+  description: Universally Unique Lexicographically Sortable Identifier
+  package_url: https://pkg.go.dev/github.com/oklog/ulid
+  version: 1.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: urlesc
+  description: Proper URL escaping as per RFC3986
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/urlesc
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: validate
+  description: Openapi toolkit validation helpers
+  package_url: https://pkg.go.dev/github.com/go-openapi/validate
+  version: 0.21.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ryomak
+  last_updated_on: 2023-06-18 06:13:26.000000000 Z
+- name: xstrings
+  description: 'Xstrings: A collection of useful string functions for Go'
+  package_url: https://pkg.go.dev/github.com/huandu/xstrings
+  version: 1.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/examples/chroma-vectorstore-example/go.sum
+  detection_source: examples/document-qa-example/go.mod
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-14 10:53:39.000000000 Z
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 1.6.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 19.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.32.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-23 16:13:26.000000000 Z
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  version: 0.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: raw-loader
+  description: A loader for webpack that allows importing files as a String
+  package_url: https://www.npmjs.com/raw-loader
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-23 16:13:26.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: typedoc
+  description: Create api documentation for TypeScript projects
+  package_url: https://www.npmjs.com/typedoc
+  version: 0.24.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15983/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
+- name: typedoc-plugin-markdown
+  description: A plugin for TypeDoc that enables TypeScript API documentation to be
+    generated in Markdown
+  package_url: https://www.npmjs.com/typedoc-plugin-markdown
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17015/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/tkim/langchaingo/blob/main/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: FluffyKebab
+  last_updated_on: 2023-06-21 10:45:51.000000000 Z
